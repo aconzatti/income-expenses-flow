@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "622304557928",
+    "project_id": "income-expenses-flow",
+    "storage_bucket": "income-expenses-flow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622304557928:android:9d992e4fd665f8f98db4dd",
+        "android_client_info": {
+          "package_name": "com.example.income_expenses_flow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622304557928-pjsb79p98vnjntdag17t1ldn77fp498q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQHe-QnBeXdYUhr23mIrLyFF7VLtiNRUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622304557928-pjsb79p98vnjntdag17t1ldn77fp498q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "622304557928-o03f00c1hjtd84r9u5qtbi5egnic1skf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.incomeExpensesFlow"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
