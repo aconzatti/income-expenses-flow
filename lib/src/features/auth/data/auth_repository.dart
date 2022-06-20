@@ -33,6 +33,25 @@ Bom local para uso dos construtores .fromJson
 */
 
 
+/*
+
+// ------------------------------------------------------------------
+
+Use o padrão de repositório para ocultar todos os detalhes de implementação 
+(por exemplo, serialização JSON) de sua camada de dados. Como resultado, o 
+restante do seu aplicativo (domínio e camada de apresentação) pode lidar 
+diretamente com classes/entidades de modelo de tipo seguro. E sua base de 
+código também se tornará mais resiliente a alterações de quebra nos pacotes 
+dos quais você depende.
+
+// ------------------------------------------------------------------
+
+*/
+
+
+
+
+
 
 /*
 

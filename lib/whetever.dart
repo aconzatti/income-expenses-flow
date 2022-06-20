@@ -1,10 +1,10 @@
 
 
 /*
-[x] - Repository or Data
-[x] - Domain
-[ ] - Application
-[ ] - Presentation
+[*] - Repository
+[X] - Domain
+[X] - Application
+[-] - Presentation
 
 */
 
