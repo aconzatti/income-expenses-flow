@@ -1,0 +1,1 @@
+// Como o 'service' do Angular
