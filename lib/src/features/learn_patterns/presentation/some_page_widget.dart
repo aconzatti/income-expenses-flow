@@ -1,5 +1,13 @@
+// https://codewithandrea.com/articles/flutter-presentation-layer/#a-controller-class-based-on-statenotifier
+
+// https://pub.dev/documentation/flutter_riverpod/latest/flutter_riverpod/ConsumerWidget-class.html
+
 //
 //
+
+//
+//
+
 //
 //  =====================================================================================
 //  =====================================================================================
@@ -7,10 +15,9 @@
 // Exemplo (widget)
 //
 import 'package:flutter/material.dart';
-import 'package:income_expenses_flow/src/features/auth/presentation/auth_state.dart';
+import 'package:income_expenses_flow/src/features/learn_patterns/presentation/some_state.dart';
 
 class SomePage {
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),

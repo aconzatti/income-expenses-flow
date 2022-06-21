@@ -1,40 +1,5 @@
 /*
 
-
-O padrão de repositório é muito útil se seu aplicativo tiver uma camada 
-de dados complexa com muitos endpoints diferentes que retornam dados 
-não estruturados (como JSON) que você deseja isolar do restante do 
-aplicativo.
-
-
-Isolar modelos de domínio (ou entidades) dos detalhes de implementação 
-das fontes de dados na camada de dados.
-
-Converter objetos de transferência de dados em entidades validadas 
-que são compreendidas pela camada de domínio
-
-(opcionalmente) Executar operações como armazenamento em cache de dados.
-
-----
-
-Conversando com APIs REST
-
-Conversar com bancos de dados locais ou remotos 
-(por exemplo, Sembast, Hive, Firestore, etc.)
-
-Conversar com APIs específicas do dispositivo 
-(por exemplo, permissões, câmera, localização etc.)
-
-----
-
-Bom local para uso dos construtores .fromJson
-
-
-*/
-
-
-/*
-
 // ------------------------------------------------------------------
 
 Use o padrão de repositório para ocultar todos os detalhes de implementação 
@@ -49,8 +14,41 @@ dos quais você depende.
 */
 
 
+/*
 
 
+O padrão de repositório é muito útil se seu aplicativo tiver uma camada 
+de dados complexa com muitos endpoints diferentes que retornam dados 
+não estruturados (como JSON) que você deseja isolar do restante do 
+aplicativo.
+
+
+- Isolar modelos de domínio (ou entidades) dos detalhes de implementação 
+das fontes de dados na camada de dados.
+
+- Converter objetos de transferência de dados em entidades validadas 
+que são compreendidas pela camada de domínio
+
+- (opcionalmente) Executar operações como armazenamento em cache de dados.
+
+----
+
+Conversando com APIs REST
+
+Conversar com bancos de dados locais ou remotos 
+(por exemplo, Sembast, Hive, Firestore, etc.)
+
+Conversar com APIs específicas do dispositivo 
+(por exemplo, permissões, câmera, localização etc.)
+
+----
+
+
+Bom local para uso dos construtores .fromJson
+
+
+
+*/
 
 
 /*
